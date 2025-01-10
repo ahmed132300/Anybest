@@ -1,11 +1,9 @@
 import Cards from "./cards";
-import Header from "./Header";
 
 import './Watch.css'
 function Watch(props) {
     return (
         <div>
-            <Header />
             <div className="video">
                 <iframe src={props.link} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>

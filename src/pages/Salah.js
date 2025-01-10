@@ -1,5 +1,4 @@
 import Cards from "../components/cards";
-import Header from "../components/Header";
 import salah from '../images/salah.jpeg';
 import './osman.css';
 
@@ -7,7 +6,6 @@ function Salah() {
     return(
          <div>
         <div>
-            <Header />
             <h1 className="title">جميع حلقات مسلسل صلاح الدين الايوبي </h1>
             <div className="container">
                 <div className="cards">

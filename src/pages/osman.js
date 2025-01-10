@@ -1,12 +1,10 @@
 import Cards from "../components/cards";
-import Header from "../components/Header";
 import osman from '../images/osman.jpeg'
 import './osman.css'
 
 function Osman() {
     return (
         <div>
-            <Header />
             <h1 className="title">جميع حلقات مسلسل المؤسس عثمان </h1>
             <div className="container">
                 <div className="cards">

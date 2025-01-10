@@ -1,5 +1,4 @@
 import Cards from "../components/cards";
-import Header from "../components/Header";
 import elfateh from '../images/elfateh.jpeg'
 import './elfateh.css'
 
@@ -8,7 +7,6 @@ import './elfateh.css'
 
             <div>
         <div>
-            <Header />
             <h1 className="title">جميع حلقات مسلسل محمد الفاتح </h1>
             <div className="container">
                 <div className="cards">
