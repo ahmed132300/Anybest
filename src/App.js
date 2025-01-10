@@ -16,6 +16,7 @@ function App() {
       <Router>
         <Switch>
           <Route index path="/home" element={<Home />} ><Home /></Route>
+          <Route index path="/" element={<Home />} ><Home /></Route>
           <Route path="/osman" element={<Osman />} ><Osman /></Route>
           <Route path="/salah" element={<Salah />} ><Salah /></Route>
           <Route path="/elfateh" element={<Elfateh />} ><Elfateh /></Route>
