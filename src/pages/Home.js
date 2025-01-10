@@ -4,6 +4,8 @@ import salah from '../images/salah.jpeg'
 import elfateh from '../images/elfateh.jpeg'
 import ImageSlider from '../components/Imgs';
 import Cards from '../components/cards';
+import sonic from '../images/sonic.jpeg'
+
 function Home() {
     const imageUrls = [
         osman,
@@ -21,6 +23,7 @@ function Home() {
                     <Cards img={osman} name='عثمان' description='شاهد الان جميع حلقات المؤسس عثمان بجودة عالية مع امكانية التحميل' link='osman' />
                     <Cards img={salah} name='صلاح الدين' description='شاهد الان جميع حلقات صلاح الدين الايوبي بجودة عالية مع امكانية التحميل' link='salah' />
                     <Cards img={elfateh} name='محمد الفاتح' description='شاهد الان جميع حلقات محمد الفاتح بجودة عالية مع امكانية التحميل' link='elfateh' />
+                    <Cards img={sonic} name='Sonic ' description='شاهد الان جميع أجزاء فيلم سونيك بجودة عالية مع امكانية التحميل' link='sonic' />
                 </div>
             </div>
 
