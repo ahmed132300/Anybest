@@ -3,7 +3,6 @@ import osman from '../images/osman.jpeg'
 import salah from '../images/salah.jpeg'
 import elfateh from '../images/elfateh.jpeg'
 import ImageSlider from '../components/Imgs';
-import Header from '../components/Header';
 import Cards from '../components/cards';
 function Home() {
     const imageUrls = [
@@ -13,7 +12,6 @@ function Home() {
     ];
     return (
         <div>
-            <Header/>
             <ImageSlider images={imageUrls} />
             <br />
             <h1>احدث المسلسلات</h1>
