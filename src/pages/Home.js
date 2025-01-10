@@ -1,6 +1,6 @@
 import './Home.css';
 import osman from '../images/osman.jpeg'
-import salah from '../images/salah.jpeg'
+import salah from '../images/salah.jpg'
 import elfateh from '../images/elfateh.jpeg'
 import ImageSlider from '../components/Imgs';
 import Cards from '../components/cards';
@@ -14,7 +14,7 @@ function Home() {
     ];
     return (
         <div>
-            <ImageSlider images={imageUrls} />
+            {/* <ImageSlider images={imageUrls} /> */}
             <br />
             <h1>احدث المسلسلات</h1>
             <br />

@@ -5,8 +5,9 @@
     margin-top: 20px;
 }
 .slider img {
-    width: 90%;
-    object-fit: cover;
+    border-radius: 20px;
+    width: 85%;
+    object-fit:cover;
     border-radius: 10px;
-    height: 520px;
+    height: 820px;
 }
