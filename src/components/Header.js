@@ -1,7 +1,7 @@
 import './Header.css';
 import { useState } from 'react';
 import logo from '../../public/logo.png'
-import vid from '../../public/logo.png'
+import vid from '../images/logo.png'
 import { useNavigate } from 'react-router-dom';
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
