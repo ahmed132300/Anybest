@@ -80,13 +80,13 @@ function App() {
             </Watch>
           </Route>
           <Route path="/watch-moana-2" element={<Watch />}>
-            <Watch link='https://6tnutl8knw.sbs/e/m7WJxg1jXBAOBze' head='شاهد ايضا' download='https://6tnutl8knw.sbs/e/m7WJxg1jXBAOBze'>
+            <Watch link='https://6sfkrspw4u.sbs/embed/lo09ngq5zwml' head='شاهد ايضا' download='https://6sfkrspw4u.sbs/download/lo09ngq5zwml'>
               <Cards name='الجزء 1 مترجم' img={moana} description='شاهد الان الجزء 1 بجودة عالية مع امكانية التحميل' link='watch-moana-1' />
               <Cards name='الجزء 2 مترجم' img={moana} description='شاهد الان الجزء 2 بجودة عالية مع امكانية التحميل' link='watch-moana-2' />
             </Watch>
           </Route>
           <Route path="/watch-moana-1" element={<Watch />}>
-            <Watch link='https://6tnutl8knw.sbs/e/m7WJxg1jXBAOBze' head='شاهد ايضا' download='https://6tnutl8knw.sbs/e/m7WJxg1jXBAOBze'>
+            <Watch link='https://6tnutl8knw.sbs/e/m7WJxg1jXBAOBze' head='شاهد ايضا' download='https://6sfkrspw4u.sbs/download/lo09ngq5zwml'>
               <Cards name='الجزء 1 مترجم' img={moana} description='شاهد الان الجزء 1 بجودة عالية مع امكانية التحميل' link='watch-moana-1' />
               <Cards name='الجزء 2 مترجم' img={moana} description='شاهد الان الجزء 2 بجودة عالية مع امكانية التحميل' link='watch-moana-2' />
             </Watch>
