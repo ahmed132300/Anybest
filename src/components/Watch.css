@@ -1,0 +1,25 @@
+.video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.video iframe{
+    width: 80vh;
+    height: 40vh;
+}
+.codo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.download{
+    padding: 10px;
+    background-color: turquoise;
+    display: inline-block;
+    width: 80vh;
+    text-align: center;
+    color: white;
+}
