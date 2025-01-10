@@ -56,7 +56,7 @@ function App() {
             </Watch>
           </Route>
           <Route path="/watch-sonic-1" element={<Watch />}>
-            <Watch link='https://fastupload.io/shared/90ejy-qp-una3af0ifj34ry4rb42as2pcrsl9a31j20l_vqhmqz-do52ccr703jbihlnma4yenomxb_wi8tw676x9_xi7vb0gmour9_yaotoj0-xwnw47qj74k277oll' head='شاهد ايضا'>
+            <Watch link='https://6sfkrspw4u.sbs/v/ej6g1y62d12s' head='شاهد ايضا'>
               <Cards name='سونيك الجزء 1 مترجمة ' img={sonic} description='شاهد الان الجزء الاول  بجودة عالية مع امكانية التحميل' link='watch-sonic-1' />
               <Cards name='سونيك الجزء 2 مترجمة' img={sonic2} description='شاهد الان الجزء الاول  بجودة عالية مع امكانية التحميل' link='watch-sonic-2' />
               <Cards name='سونيك الجزء 3 مترجمة' img={sonic3} description='شاهد الان الجزء الاول  بجودة عالية مع امكانية التحميل' link='watch-sonic-3' />
