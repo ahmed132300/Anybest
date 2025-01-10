@@ -4,7 +4,7 @@ import logo from '../images/menu.gif'
 import vid from '../images/vid.gif'
 import { useNavigate } from 'react-router-dom';
 function Header() {
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
