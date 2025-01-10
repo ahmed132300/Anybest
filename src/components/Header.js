@@ -1,6 +1,6 @@
 import './Header.css';
 import { useState } from 'react';
-import logo from '../../public/logo.png'
+import logo from '../images/menu.gif'
 import vid from '../images/logo.png'
 import { useNavigate } from 'react-router-dom';
 function Header() {
