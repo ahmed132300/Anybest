@@ -10,9 +10,11 @@ import Watch from './components/Watch'
 import osman from './images/osman.jpeg'
 import elfateh from './images/elfateh.jpeg'
 import salah from './images/salah.jpeg';
+import Header from './components/Header';
 function App() {
   return (
     <div>
+      <Header/>
       <Router>
         <Switch>
           <Route index path="/home" element={<Home />} ><Home /></Route>
