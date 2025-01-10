@@ -8,7 +8,7 @@ function Watch(props) {
                 <iframe src={props.link} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div className="codo">
-                <h2 className="download">Download</h2>
+                <h2 className="download" onClick={() => window.location.href = props.download}>Download</h2>
             </div>
             <h1 className="title">{props.head}</h1>
             <div className="container">

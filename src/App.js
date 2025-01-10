@@ -12,10 +12,13 @@ import elfateh from './images/elfateh.jpeg'
 import salah from './images/salah.jpeg';
 import Header from './components/Header';
 import Sonic from './pages/sonic';
+import sonic from './images/sonic.jpeg'
+import sonic2 from './images/sonic 2.jpg'
+import sonic3 from './images/sonic 3.jpg'
 function App() {
   return (
     <div>
-      <Header/>
+      <Header />
       <Router>
         <Switch>
           <Route index path="/home" element={<Home />} ><Home /></Route>
@@ -42,14 +45,35 @@ function App() {
             <Watch link='https://www.youtube.com/embed/17l6AOc8s10?si=-5dn6m8dhtI2TTsM' head='شاهد ايضا'>
               <Cards name='الحلقة 30 مترجمة' img={elfateh} description='شاهد الان الحلقة 30 بجودة عالية مع امكانية التحميل' link='watch-elfateh-30' />
               <Cards name='الحلقة 177 مترجمة' img={osman} description='شاهد الان الحلقة 177 بجودة عالية مع امكانية التحميل' link='watch-osman-177' />
-              <Cards name='الحلقة 40 مترجمة' img={salah} description='شاهد الان الحلقة 40 بجودة عالية مع امكانية التحميل' link='watch-salah-40'/>
+              <Cards name='الحلقة 40 مترجمة' img={salah} description='شاهد الان الحلقة 40 بجودة عالية مع امكانية التحميل' link='watch-salah-40' />
             </Watch>
           </Route>
           <Route path="/watch-elfateh-30" element={<Watch />}>
-            <Watch link='https://www.youtube.com/embed/17l6AOc8s10?si=-5dn6m8dhtI2TTsM' head='شاهد ايضا'>
+            <Watch link='https://forafile.com/embed-nx4joiixwgq8.html' head='شاهد ايضا'>
               <Cards name='الحلقة 30 مترجمة' img={elfateh} description='شاهد الان الحلقة 30 بجودة عالية مع امكانية التحميل' link='watch-elfateh-30' />
               <Cards name='الحلقة 177 مترجمة' img={osman} description='شاهد الان الحلقة 177 بجودة عالية مع امكانية التحميل' link='watch-osman-177' />
               <Cards name='الحلقة 40 مترجمة' img={salah} description='شاهد الان الحلقة 40 بجودة عالية مع امكانية التحميل' link='watch-salah-40' />
+            </Watch>
+          </Route>
+          <Route path="/watch-sonic-1" element={<Watch />}>
+            <Watch link='https://fastupload.io/shared/90ejy-qp-una3af0ifj34ry4rb42as2pcrsl9a31j20l_vqhmqz-do52ccr703jbihlnma4yenomxb_wi8tw676x9_xi7vb0gmour9_yaotoj0-xwnw47qj74k277oll' head='شاهد ايضا'>
+              <Cards name='سونيك الجزء 1 مترجمة ' img={sonic} description='شاهد الان الجزء الاول  بجودة عالية مع امكانية التحميل' link='watch-sonic-1' />
+              <Cards name='سونيك الجزء 2 مترجمة' img={sonic2} description='شاهد الان الجزء الاول  بجودة عالية مع امكانية التحميل' link='watch-sonic-2' />
+              <Cards name='سونيك الجزء 3 مترجمة' img={sonic3} description='شاهد الان الجزء الاول  بجودة عالية مع امكانية التحميل' link='watch-sonic-3' />
+            </Watch>
+          </Route>
+          <Route path="/watch-sonic-2" element={<Watch />}>
+            <Watch link='https://fastupload.io/shared/90ejy-qp-una3af0ifj34ry4rb42as2pcrsl9a31j20l_vqhmqz-do52ccr703jbihlnma4yenomxb_wi8tw676x9_xi7vb0gmour9_yaotoj0-xwnw47qj74k277oll' head='شاهد ايضا'>
+              <Cards name='سونيك الجزء 1 مترجمة ' img={sonic} description='شاهد الان الجزء الاول  بجودة عالية مع امكانية التحميل' link='watch-sonic-1' />
+              <Cards name='سونيك الجزء 2 مترجمة' img={sonic2} description='شاهد الان الجزء الاول  بجودة عالية مع امكانية التحميل' link='watch-sonic-2' />
+              <Cards name='سونيك الجزء 3 مترجمة' img={sonic3} description='شاهد الان الجزء الاول  بجودة عالية مع امكانية التحميل' link='watch-sonic-3' />
+            </Watch>
+          </Route>
+          <Route path="/watch-sonic-3" element={<Watch />}>
+            <Watch link='https://fastupload.io/7669fe4c7ce56176' head='شاهد ايضا' download='https://arch6.222mn-dd-r8.com/request/media/gDD36PGTpy6dwDusq5hDQAHj/Sonic.The.Hedgehog.3.2024.1080p.HDCAM.EgyDead.C....zip'>
+              <Cards name='سونيك الجزء 1 مترجمة ' img={sonic} description='شاهد الان الجزء الاول  بجودة عالية مع امكانية التحميل' link='watch-sonic-1' />
+              <Cards name='سونيك الجزء 2 مترجمة' img={sonic2} description='شاهد الان الجزء الاول  بجودة عالية مع امكانية التحميل' link='watch-sonic-2' />
+              <Cards name='سونيك الجزء 3 مترجمة' img={sonic3} description='شاهد الان الجزء الاول  بجودة عالية مع امكانية التحميل' link='watch-sonic-3' />
             </Watch>
           </Route>
         </Switch>
